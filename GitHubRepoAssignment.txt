@@ -1,0 +1,69 @@
+Microsoft Windows [Version 10.0.16299.192]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\cortn>cd documents
+
+C:\Users\cortn\Documents>cd dojoassignments
+The system cannot find the path specified.
+
+C:\Users\cortn\Documents>dir
+ Volume in drive C is Local Disk
+ Volume Serial Number is 5EF7-263D
+
+ Directory of C:\Users\cortn\Documents
+
+02/06/2018  01:40 PM    <DIR>          .
+02/06/2018  01:40 PM    <DIR>          ..
+08/23/2017  04:05 PM    <DIR>          Adobe
+02/06/2018  01:39 PM    <DIR>          Coding
+11/20/2017  07:00 AM    <DIR>          Custom Office Templates
+01/06/2018  03:27 PM         1,935,251 Eleven-Fifty-Academy-SmartStart-Badge-Standards-JavaScript.pdf
+02/06/2018  01:40 PM                93 github push.txt
+01/10/2018  04:32 PM    <DIR>          JavaScript 2018
+               2 File(s)      1,935,344 bytes
+               6 Dir(s)  195,660,935,168 bytes free
+
+C:\Users\cortn\Documents>cd coding
+
+C:\Users\cortn\Documents\Coding>cd dojoassignments
+
+C:\Users\cortn\Documents\Coding\dojoassignments>cd ..
+
+C:\Users\cortn\Documents\Coding>git init
+Initialized empty Git repository in C:/Users/cortn/Documents/Coding/.git/
+
+C:\Users\cortn\Documents\Coding>mkdir GitHubRepoAssignment
+
+C:\Users\cortn\Documents\Coding>cd GitHubRepoAssignment
+
+C:\Users\cortn\Documents\Coding\GitHubRepoAssignment>git init
+Initialized empty Git repository in C:/Users/cortn/Documents/Coding/GitHubRepoAssignment/.git/
+
+C:\Users\cortn\Documents\Coding\GitHubRepoAssignment>copy NUL readme.md
+        1 file(s) copied.
+
+C:\Users\cortn\Documents\Coding\GitHubRepoAssignment>start readme.md
+
+C:\Users\cortn\Documents\Coding\GitHubRepoAssignment>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\cortn\Documents\Coding\GitHubRepoAssignment>git add readme.md
+
+C:\Users\cortn\Documents\Coding\GitHubRepoAssignment>git commit readme.md -m "first commit of dojo github repo assignment readme.md
+[master (root-commit) 96d750f] first commit of dojo github repo assignment readme.md
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.md
+
+C:\Users\cortn\Documents\Coding\GitHubRepoAssignment>copy NUL GitHubRepoAssignment.txt
+        1 file(s) copied.
+
+C:\Users\cortn\Documents\Coding\GitHubRepoAssignment>
